@@ -1,6 +1,6 @@
 <app-navbar/>
 <app-input-note (event)="reciveData($event)"/>
 <span *ngFor="let item of notedata">
-    <app-display-note [data]='item'(event)="reciveDataDelete($event)" />
+    <app-display-note [data]='item' (event)="reciveDataDelete($event)" />
 </span>
 

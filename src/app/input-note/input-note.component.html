@@ -12,5 +12,6 @@
       rows="3"
       (keyup)="getContent(content.value)"
     ></textarea>
+    <h1>Input Data: {{inputEdit.title}}</h1>
     <button (click)="sendData()" (click)="$event.preventDefault()"><mat-icon class="icon">add</mat-icon></button>
   </form>
