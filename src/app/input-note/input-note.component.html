@@ -1,0 +1,16 @@
+<form class="create-note">
+    <input class="inputField"
+      #title
+      name="title" 
+      placeholder="Title"
+      (keyup)="getTitle(title.value)"
+    />
+    <textarea 
+      #content
+      name="content" 
+      placeholder="Take a note..." 
+      rows="3"
+      (keyup)="getContent(content.value)"
+    ></textarea>
+    <button (click)="sendData()" (click)="$event.preventDefault()"><mat-icon class="icon">add</mat-icon></button>
+  </form>

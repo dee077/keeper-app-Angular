@@ -1,0 +1,29 @@
+.Note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgb(150, 149, 149);
+    padding: 10px;
+    width: 240px;
+    margin: 25px;
+    float: left;
+  }
+  .Note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .Note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .Note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #fbb607;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
